@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Canais de Comunicação - BIOCLICO</title>
+  <link rel="stylesheet" href="estilo/estilo.css">
+</head>
+
+<body>
+  <header>
+    <h1>Canais de Comunicação</h1>
+    <p>Em caso de dúvidas, entre em contato conosco via:</p>
+
+    <div class="menu-container">
+      <button class="menu-button" onclick="toggleMenu()">⋮</button>
+      <div class="dropdown" id="dropdown-menu">
+        <a href="CADASTRO.html">Entrar</a>
+        <a href="LIXEIRAS.html">Lixeiras Próximas</a>
+        <a href="CONTATO.html">Canais de Comunicação</a>
+        <a href="logout.html">Sair</a>
+      </div>
+    </div>
+  </header>
+ 
+  <main>
+    <div class="lixeira">
+      <h2>WhatsApp:</h2>
+      <p>+55 (11) 95435-0810</p>
+      <button class="button" onclick="window.open('https://wa.me/qr/EF7J57QY23BTA1')">Conversar</button>
+    </div>
+
+    <div class="lixeira">
+      <h2>E-mail:</h2>
+      <p>suportebiociclo@gmail.com</p>
+      <button class="button" onclick="window.open('file://MINDMAKERS/SITE/EMAIL.html')">Enviar email</button>
+    </div>
+
+<div class="lixeira">
+  <h2>Instagram:</h2>
+  <p>@biociclo_oficial</p>
+  <button class="button" onclick="window.open('https://www.instagram.com/biociclo_oficial?igsh=Y25xeDltY2s0cXdt', '_blank')">Seguir</button>
+</div>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 BIOCIClO - Todos os direitos reservados.</p>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      const menu = document.getElementById("dropdown-menu");
+      menu.style.display = menu.style.display === "block" ? "none" : "block";
+    }
+
+    window.onclick = function(event) {
+      const menu = document.getElementById("dropdown-menu");
+      const button = document.querySelector(".menu-button");
+      if (!menu.contains(event.target) && !button.contains(event.target)) {
+        menu.style.display = "none";
+      }
+    }
+  </script>
+</body>
+</html>

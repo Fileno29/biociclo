@@ -1,0 +1,105 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #c9ebc6;
+  color: #333;
+}
+
+header {
+  background-color: #169d53;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+
+.menu-container {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.menu-button {
+  background: none;
+  border: none;
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  top: 35px;
+  right: 0;
+  background-color: #fff9ce;
+  border-radius: 7px;
+  box-shadow: 2px 2px 5px #333;
+  z-index: 1;
+}
+
+.dropdown a {
+  display: block;
+  padding: 10px 20px;
+  color: #169d53;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.dropdown a:hover {
+  background-color: #b2e5ae;
+}
+
+main {
+  padding: 20px;
+}
+
+.lixeira, .form-container {
+  max-width: 800px;
+  background-color: #fff9ce;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px auto;
+}
+
+.input-field, .textarea-field {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.textarea-field {
+  height: 100px;
+}
+
+.button {
+  background-color: #169d53;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #169d53;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+img.responsiva {
+  width: 100%;
+  max-width: 800px;
+  max-height: 300px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  object-fit: contain;
+}
+

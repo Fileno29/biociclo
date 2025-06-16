@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Lixeiras Próximas - BIOCLICO</title>
+    <link rel="stylesheet" href="estilo/estilo.css">
+  </head>
+  
+<body>
+  <header>
+    <h1>Lixeiras Próximas</h1>
+    <p>Veja onde está a BioSmart mais próxima de você!</p>
+
+    <div class="menu-container">
+      <button class="menu-button" onclick="toggleMenu()">⋮</button>
+      <div class="dropdown" id="dropdown-menu">
+        <a href="CADASTRO.html">Entrar</a>
+        <a href="LIXEIRAS.html">Lixeiras Próximas</a>
+        <a href="CONTATO.html">Canais de Comunicação</a>
+        <a href="logout.html">Sair</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+<div class="lixeira">
+  <h2>Design da Lixeira:</h2>
+  <img src="imagens/lixeira.jpeg" alt="imagem da lixeira" class="responsiva pequena">
+  <p><strong>Nome:</strong> BioSmart</p>
+  <p><strong>Descrição:</strong> A lixeira sempre avisará o estado em que se encontra (disponível, quase cheia, cheia ou  em manutenção).</p>  
+</div>
+
+<div class="lixeira">
+  <h2>Praça Central</h2>
+  <p><strong>Endereço:</strong> Av. Paulista, 1000 - Bela Vista, São Paulo - SP</p>
+  <p><strong>Status:</strong> Espaço disponível - pronta para uso.</p>
+  <button class="button" onclick="window.open('https://www.google.com.br/maps/place/Av.+Paulista,+1000+-+Bela+Vista,+S%C3%A3o+Paulo+-+SP,+01310-100/@-23.5649175,-46.6545125,17z/data=!3m1!4b1!4m6!3m5!1s0x94ce5994f2e15a7d:0xdeb92126793e5e90!8m2!3d-23.5649224!4d-46.6519376!16s%2Fg%2F11qhr0425c?hl=pt-BR&entry=ttu&g_ep=EgoyMDI1MDUyMS4wIKXMDSoASAFQAw%3D%3D', '_blank')">Ver Rota</button>
+</div>
+
+
+    <div class="lixeira">
+      <h2>Escola Estadual Nova Geração</h2>
+      <p><strong>Endereço:</strong> R. das Flores, 255 - Vila Mariana, São Paulo - SP</p>
+      <p><strong>Status:</strong> Quase cheia - use com atenção.</p>
+      <button class="button" onclick="window.open('https://www.google.com.br/maps/place/R.+das+Fl%C3%B4res+-+S%C3%A9,+S%C3%A3o+Paulo+-+SP,+01017-911/@-23.5514291,-46.6335821,17z/data=!3m1!4b1!4m6!3m5!1s0x94ce5900b15a1739:0x7ed1ec435b8e5871!8m2!3d-23.551434!4d-46.6310072!16s%2Fg%2F1ymsq3zzx?hl=pt-BR&entry=ttu&g_ep=EgoyMDI1MDUyMS4wIKXMDSoASAFQAw%3D%3D')">Ver Rota</button>
+    </div>
+    <div class="lixeira">
+  <h2>Parque da Juventude</h2>
+  <p><strong>Endereço:</strong> Av. Cruzeiro do Sul, 2630 - Santana, São Paulo - SP</p>
+  <p><strong>Status:</strong> Espaço disponível - pronta para uso.</p>
+  <button class="button" onclick="window.open('https://www.google.com.br/maps/place/Av.+Cruzeiro+do+Sul,+2630+-+Santana,+S%C3%A3o+Paulo+-+SP,+02030-100/@-23.5086444,-46.6265146,17z/data=!3m1!4b1!4m6!3m5!1s0x94ce5882e255aab3:0x51e6581cb6f30389!8m2!3d-23.5086493!4d-46.6239397!16s%2Fg%2F11bw4nm7gs?hl=pt-BR&entry=ttu&g_ep=EgoyMDI1MDUyMS4wIKXMDSoASAFQAw%3D%3D')">Ver Rota</button>
+</div>
+
+<div class="lixeira">
+  <h2>Shopping Aricanduva</h2>
+  <p><strong>Endereço:</strong> Av. Aricanduva, 5555 - Vila Matilde, São Paulo - SP</p>
+  <p><strong>Status:</strong> Cheia - evite usar por agora.</p>
+  <button class="button" onclick="window.open('https://www.google.com.br/maps/place/Shopping+Aricanduva/@-23.5659877,-46.5085883,17z/data=!3m2!4b1!5s0x94ce676e92a51e59:0x9f304c59fbd28660!4m6!3m5!1s0x94ce676edd286c5f:0x4b56801d4922f046!8m2!3d-23.5659927!4d-46.5039749!16s%2Fm%2F07s9470?hl=pt-BR&entry=ttu&g_ep=EgoyMDI1MDUyMS4wIKXMDSoASAFQAw%3D%3D')">Ver Rota</button>
+</div>
+
+<div class="lixeira">
+  <h2>Terminal Bandeira</h2>
+  <p><strong>Endereço:</strong> Praça da Bandeira, s/n - República, São Paulo - SP</p>
+  <p><strong>Status:</strong> Quase cheia - use com atenção.</p>
+  <button class="button" onclick="window.open('https://www.google.com.br/maps/place/P%C3%A7a.+da+Bandeira,+S%C3%A3o+Paulo+-+SP/@-23.5488968,-46.6412885,17z/data=!3m1!4b1!4m6!3m5!1s0x94ce58532faef111:0xa38f8b5918d27ce2!8m2!3d-23.5489017!4d-46.6387136!16s%2Fg%2F1ptwz8m_8?hl=pt-BR&entry=ttu&g_ep=EgoyMDI1MDUyMS4wIKXMDSoASAFQAw%3D%3D')">Ver Rota</button>
+</div>
+
+<div class="lixeira">
+  <h2>Parque Ibirapuera</h2>
+  <p><strong>Endereço:</strong> Av. Pedro Álvares Cabral, s/n - Vila Mariana, São Paulo - SP</p>
+  <p><strong>Status:</strong> Espaço disponível - pronta para uso.</p>
+  <button class="button" onclick="window.open('https://www.google.com.br/maps/place/Av.+Pedro+%C3%81lvares+Cabral+-+Moema,+S%C3%A3o+Paulo+-+SP/@-23.5859921,-46.6574947,17z/data=!3m1!4b1!4m6!3m5!1s0x94ce59f3c5b5d37d:0x5e6598c9b3e7f9a8!8m2!3d-23.585997!4d-46.6549198!16s%2Fg%2F1ymt4j5jc?hl=pt-BR&entry=ttu&g_ep=EgoyMDI1MDUyMS4wIKXMDSoASAFQAw%3D%3D')">Ver Rota</button>
+</div>
+
+<div class="lixeira">
+  <h2>Estação Sé</h2>
+  <p><strong>Endereço:</strong> Praça da Sé, s/n - Sé, São Paulo - SP</p>
+  <p><strong>Status:</strong> Em manutenção - temporariamente indisponível.</p>
+  <button class="button" onclick="window.open('https://www.google.com.br/maps/place/Pra%C3%A7a+da+S%C3%A9+-+Se,+S%C3%A3o+Paulo+-+SP,+01001-000/@-23.550305,-46.6367758,17z/data=!3m1!4b1!4m6!3m5!1s0x94ce59abaaae4233:0xd9186faf714bc5b1!8m2!3d-23.5503099!4d-46.6342009!16s%2Fm%2F02rtr82?hl=pt-BR&entry=ttu&g_ep=EgoyMDI1MDUyMS4wIKXMDSoASAFQAw%3D%3D')">Ver Rota</button>
+</div>
+
+<div class="lixeira">
+  <h2>Universidade de São Paulo (USP)</h2>
+  <p><strong>Endereço:</strong> R. da Reitoria, 374 - Butantã, São Paulo - SP</p>
+  <p><strong>Status:</strong> Espaço disponível - pronta para uso.</p>
+  <button class="button" onclick="window.open('https://www.google.com.br/maps/place/R.+da+Reitoria,+374+-+Butant%C3%A3,+S%C3%A3o+Paulo+-+SP,+05508-220/@-23.5588151,-46.7284826,17z/data=!3m1!4b1!4m6!3m5!1s0x94ce563f06130b7b:0x1fa7f84c4986d5ef!8m2!3d-23.5585788!4d-46.7257902!16s%2Fg%2F11cs7bmnkq?hl=pt-BR&entry=ttu&g_ep=EgoyMDI1MDUyMS4wIKXMDSoASAFQAw%3D%3D')">Ver Rota</button>
+</div>
+
+<div class="lixeira">
+  <h2>Centro Cultural SP</h2>
+  <p><strong>Endereço:</strong> R. Vergueiro, 1000 - Liberdade, São Paulo - SP</p>
+  <p><strong>Status:</strong> Quase cheia - use com atenção.</p>
+  <button class="button" onclick="window.open('https://www.google.com.br/maps/place/Rua+Vergueiro,+1000+-+Liberdade,+S%C3%A3o+Paulo+-+SP,+01504-000/@-23.5709322,-46.6427153,17z/data=!3m1!4b1!4m6!3m5!1s0x94ce5998463fd371:0x10b8f0d316e5821d!8m2!3d-23.5709371!4d-46.6401404!16s%2Fg%2F11rgw01frl?hl=pt-BR&entry=ttu&g_ep=EgoyMDI1MDUyMS4wIKXMDSoASAFQAw%3D%3D')">Ver Rota</button>
+</div>
+
+<div class="lixeira">
+  <h2>Estádio Morumbis</h2>
+  <p><strong>Endereço:</strong> Praça Roberto Gomes Pedrosa, 1 - Morumbi, São Paulo - SP</p>
+  <p><strong>Status:</strong> Espaço disponível - pronta para uso.</p>
+  <button class="button" onclick="window.open('https://www.google.com.br/maps/place/Pra%C3%A7a+Roberto+Gomes+Pedrosa,+1+-+Morumbi,+S%C3%A3o+Paulo+-+SP,+05653-070/@-23.6000762,-46.7235862,17z/data=!3m1!4b1!4m6!3m5!1s0x94ce56c3166fb0d3:0xeb404a858fa30bbc!8m2!3d-23.6000811!4d-46.7210113!16s%2Fg%2F11bw44cg26?hl=pt-BR&entry=ttu&g_ep=EgoyMDI1MDUyMS4wIKXMDSoASAFQAw%3D%3D')">Ver Rota</button>
+</div>
+
+<div class="lixeira">
+  <h2>Estádio Neo Química Arena</h2>
+  <p><strong>Endereço:</strong> Av. Miguel Ignácio Curi, 111 - Vila Carmosina, São Paulo - SP</p>
+  <p><strong>Status:</strong> Espaço disponível - pronta para uso.</p>
+  <button class="button" onclick="window.open('https://www.google.com.br/maps/place/Av.+Miguel+Ign%C3%A1cio+Curi,+111+-+Vila+Carmosina,+S%C3%A3o+Paulo+-+SP,+08295-005/@-23.5453764,-46.478701,16z/data=!3m1!4b1!4m6!3m5!1s0x94ce66deca2aded9:0x225ff63cf2b72476!8m2!3d-23.5453137!4d-46.4742296!16s%2Fg%2F11bw4cy2nj?hl=pt-BR&entry=ttu&g_ep=EgoyMDI1MDYxMC4xIKXMDSoASAFQAw%3D%3D')">Ver Rota</button>
+</div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 BIOCLICO - Todos os direitos reservados.</p>
+    <p>Em caso de dúvidas ou suporte, entre em contato conosco pelo e-mail: <strong>suportebioclico@gmail.com</strong></p>
+  </footer>
+  <script>
+    function toggleMenu() {
+      const menu = document.getElementById("dropdown-menu");
+      menu.style.display = menu.style.display === "block" ? "none" : "block";
+    }
+
+    window.onclick = function(event) {
+      const menu = document.getElementById("dropdown-menu");
+      const button = document.querySelector(".menu-button");
+      if (!menu.contains(event.target) && !button.contains(event.target)) {
+        menu.style.display = "none";
+      }
+    }
+  </script>
+</body>
+</html>
